@@ -1,95 +1,48 @@
-## Alcance técnico y metodológico declarado en el perfil
+## Alcance técnico y metodológico implementado (Nueva León de Judá)
 
-Los siguientes campos reproducen la información declarada por el equipo en el documento principal del perfil (identificado en el inventario documental como `S20`; consulta la lista completa de archivos al final de esta página). Representan la formulación técnica del perfil y se actualizan conforme avanza la validación del proyecto.
+Esta sección documenta tanto los parámetros originales declarados en el perfil institucional (`S20`) como el flujo metodológico ejecutado para construir el geovisor de la zona acotada de **Nueva León de Judá** (`S20-LDJ`).
 
-### Territorio y escala
+### 1. Territorio, escala y delimitación por recuadro predial
 
-**Ciudad, sector o territorio.** Zona 7, colonia Bethania, Guatemala
+- **Ciudad, sector y asentamiento:** Ciudad de Guatemala, Zona 7, colonia Bethania — **Asentamiento Nueva León de Judá**.
+- **Escala principal de análisis:** Escala microurbana / predial (`1:1,000`).
+- **Método de delimitación de la zona de estudio (Recuadro):**
+  - Se tomó como referencia la capa vectorial de predios `lotes_leondejuda.shp` (105 polígonos originalmente en proyección `EPSG:32615` — WGS 84 / UTM Zone 15N).
+  - Se calculó la envolvente mínima (*bounding box*) de la totalidad de los predios (`xmin: 766,936.99 m`, `ymin: 1,622,953.54 m`, `xmax: 767,133.32 m`, `ymax: 1,623,253.85 m`) y se aplicó un margen perimetral uniforme de **12 metros** para conformar un **recuadro rectangular de estudio** de `220.3 m × 324.3 m` (**71,458.5 m² = 7.15 ha**).
+  - Reproyectado a `EPSG:4326`, el recuadro abarca el *bounding box* `[-90.521391, 14.66695, -90.519314, 14.669902]` con centroide en `14.668426, -90.520353`.
 
-**Escala principal de análisis.** Barrio / colonia / asentamiento
+### 2. Procesamiento de capas geoespaciales locales
 
-**Superficie aproximada.** 21,1 ha, calculada a partir del polígono del formulario
+El flujo automatizado (`prepare_leondejuda_layers.py`) procesó las cuatro fuentes primarias de la carpeta de datos de **Nueva León de Judá**:
 
-**Centroide (lat, lon).** 14.67209, -90.52353
+1. **Capa de predios (`lotes_leondejuda.shp` → `geovisor/capas/lotes_leondejuda.geojson`):**
+   - Limpieza y normalización de atributos alfanuméricos (`LOTE`, `Sector`, `ocupacion`, `niveles`, `desfogue_a`, `aguas_gris`, `aguas_pluv`, ` Techo`, `Pared`, `Piso`).
+   - Cálculo de superficie plana en UTM Zona 15N (`area_m2`), sumando **8,089.32 m²** (**0.81 ha**) en **105 predios**.
+   - Cruce espacial con el corredor de líneas de alta tensión para etiquetar cada lote con el atributo `riesgo_at` (`Intersecta corredor alta tensión`: **39 lotes**; `Fuera de corredor`: **66 lotes**) y `area_at_m2` (superficie del lote bajo la franja eléctrica).
 
-**¿Cuenta con archivos geoespaciales?.** No estoy seguro/a
+2. **Corredor de líneas de alta tensión (`lineasdealtatension_leondejuda.shp` → `geovisor/capas/lineas_alta_tension_leondejuda.geojson`):**
+   - Reproyección de los **3 polígonos** de servidumbre eléctrica a `EPSG:4326` y cálculo de superficie (**4,303.51 m²**).
 
-**Archivo cargado.** No especificado
+3. **Curvas de nivel cada 1 m (`leóndejuda_curvas_clip.shp` → `geovisor/capas/curvas_nivel_leondejuda.geojson`):**
+   - Recorte espacial (*clip*) de las 9,716 curvas originales al recuadro de estudio de Nueva León de Judá, conservando **536 curvas** que describen con precisión las laderas del barranco entre **1,308 m y 1,439 m s. n. m.** (diferenciadas por el atributo `TIPO` en curvas `Directora` cada 5 m y `Normal` cada 1 m).
 
-**Descripción de los archivos.** No especificado
+4. **Ortofoto de dron (`leon_de_juda.tif` → `geovisor/capas/ortofoto_leondejuda_cog.tif` y `geovisor/data/ortofoto_leondejuda.webp`):**
+   - Reproyección mediante *warping* bilineal desde `EPSG:32615` (`8087 × 6644 px`, ~2.4 cm/px) a `EPSG:4326`.
+   - Generación de un archivo **Cloud-Optimized GeoTIFF (COG)** con compresión JPEG/YCbCr y máscara de transparencia interna, más una textura **WebP RGBA** de alta resolución (`3072 × 2604 px`) servida directamente en el visor MapLibre GL JS sobre las coordenadas `[-90.520841, 14.668087, -90.519344, 14.669852]`.
 
-### Instrumentos y productos
+---
 
-**Instrumento de planificación o gestión al que aportaría.** Plan de gestión de riesgo
+## Parámetros declarados originalmente en el perfil institucional (`S20`)
 
-**Tipo de producto o entregable.** Mapa
+Los siguientes campos conservan como referencia histórica la formulación inicial del perfil general para Colonia Bethania:
 
-Capa geoespacial
+- **Instrumento de planificación o gestión al que aporta:** Plan de gestión de riesgo / regularización y escrituración en UDEVIPO.
+- **Descripción del producto:** Ver a nivel de cada lote su condición de exposición y riesgo para toma de decisiones sobre obras de protección o escrituración.
+- **Frecuencia de actualización prevista:** Semestral.
+- **Nivel de acceso:** Uso institucional y consulta técnica agregada sin datos personales.
+- **Pregunta orientadora:** ¿Qué variables físicas, topográficas y de servicios básicos determinan las condiciones de riesgo por lote en el asentamiento?
 
-Modelo 3D / gemelo digital
-
-**Descripción del producto.** Ver a nivel de cada lote su nivel de riesgo para toma de decisiones.
-
-**Avance mínimo esperado en la jornada presencial.** Mapa preliminar de huella urbana de los asentamientos.
-
-### Datos
-
-**Datos satelitales o productos geoespaciales útiles.** Sentinel-2 / óptico multiespectral
-
-Drones / RPAS
-
-LiDAR / modelos digitales de superficie
-
-Huellas de edificaciones (Google/Microsoft Open Buildings)
-
-Catastro / parcelario
-
-**Datos locales, institucionales o de campo disponibles.** Vuelo con dron, red vial, equipamiento, fotografías, ortofotos.
-
-**Datos que hacen falta.** LiDAR, huellas de edificaciones.
-
-**Enlaces relacionados.** No especificado
-
-### Método y herramientas
-
-**Métodos o pasos previstos.** Detección de cambios / expansión urbana entre fechas
-
-Extracción de edificaciones (segmentación / deep learning)
-
-Modelación de crecimiento urbano / escenarios
-
-Análisis de exposición, vulnerabilidad y riesgo
-
-Fotogrametría con drones / modelos 3D
-
-Visualización en dashboard, visor o app
-
-**Flujo de trabajo preliminar.** Vuelo de dron, procesar imágenes, generación de capas, análisis de información, validación de variables, publicación en un dashboard.
-
-**Índices, algoritmos o herramientas.** No especificado
-
-### Operación y acompañamiento
-
-**Frecuencia de actualización o análisis.** Semestral
-
-**Nivel(es) de acceso.** Uso institucional
-
-**Componentes para usar o desplegar.** Dashboard / tablero
-
-Hosting
-
-**Uso previsto por otras personas.** No especificado
-
-**¿Requiere actualización periódica?.** No especificado
-
-**Actualización requerida.** No especificado
-
-**Pregunta principal.** ¿Qué variables se necesitan para evaluar los índices de riesgo por asentamiento?
-
-**Áreas en las que necesita asesoría.** Metodología y análisis geoespacial
-
-Validación de resultados
-
-## Referencias documentales del expediente
+## Referencias documentales y de datos del expediente
 
 - `S20` — `0. Perfiles de Proyectos/Grupo 5_Guatemala_Asentamientos Alto Riesgo/Ficha_05_Guatemala_Asentamientos_Alto_Riesgo.docx`.
+- `S20-LDJ` — Levantamiento geoespacial del asentamiento **Nueva León de Judá** (`lotes_leondejuda.shp`, `lineasdealtatension_leondejuda.shp`, `leóndejuda_curvas_clip.shp` y `leon_de_juda.tif`).

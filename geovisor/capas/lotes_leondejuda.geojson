@@ -1,0 +1,5585 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 1 · Sector A",
+        "LOTE": "1",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 49.8,
+        "perimetro_m": 28.36,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Alcantarillado público",
+        "lotes_cont": "Lote 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520721,
+              14.668318,
+              0.0
+            ],
+            [
+              -90.520677,
+              14.668279,
+              0.0
+            ],
+            [
+              -90.520726,
+              14.668228,
+              0.0
+            ],
+            [
+              -90.52077,
+              14.668267,
+              0.0
+            ],
+            [
+              -90.520721,
+              14.668318,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 3 · Sector A",
+        "LOTE": "3",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 71.75,
+        "perimetro_m": 38.58,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520677,
+              14.668279,
+              0.0
+            ],
+            [
+              -90.520721,
+              14.668318,
+              0.0
+            ],
+            [
+              -90.520778,
+              14.668357,
+              0.0
+            ],
+            [
+              -90.520751,
+              14.668393,
+              0.0
+            ],
+            [
+              -90.520646,
+              14.668323,
+              0.0
+            ],
+            [
+              -90.520677,
+              14.668279,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 5 · Sector A",
+        "LOTE": "5",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 91.59,
+        "perimetro_m": 44.97,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520646,
+              14.668323,
+              0.0
+            ],
+            [
+              -90.520779,
+              14.66841,
+              0.0
+            ],
+            [
+              -90.520751,
+              14.668447,
+              0.0
+            ],
+            [
+              -90.520618,
+              14.668366,
+              0.0
+            ],
+            [
+              -90.520646,
+              14.668323,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 7 · Sector A",
+        "LOTE": "7",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 84.68,
+        "perimetro_m": 37.64,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520618,
+              14.668366,
+              0.0
+            ],
+            [
+              -90.520707,
+              14.66842,
+              0.0
+            ],
+            [
+              -90.52067,
+              14.668476,
+              0.0
+            ],
+            [
+              -90.520579,
+              14.668423,
+              0.0
+            ],
+            [
+              -90.520618,
+              14.668366,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 10 · Sector A",
+        "LOTE": "10",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 70.07,
+        "perimetro_m": 34.12,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520579,
+              14.668423,
+              0.0
+            ],
+            [
+              -90.520658,
+              14.668469,
+              0.0
+            ],
+            [
+              -90.520632,
+              14.668524,
+              0.0
+            ],
+            [
+              -90.520548,
+              14.66848,
+              0.0
+            ],
+            [
+              -90.520579,
+              14.668423,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 17 · Sector A",
+        "LOTE": "17",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 111.21,
+        "perimetro_m": 49.61,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 17"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52047,
+              14.668584,
+              0.0
+            ],
+            [
+              -90.520578,
+              14.668659,
+              0.0
+            ],
+            [
+              -90.520611,
+              14.668675,
+              0.0
+            ],
+            [
+              -90.520576,
+              14.668729,
+              0.0
+            ],
+            [
+              -90.520439,
+              14.668623,
+              0.0
+            ],
+            [
+              -90.52047,
+              14.668584,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 32A · Sector A",
+        "LOTE": "32A",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 51.73,
+        "perimetro_m": 31.51,
+        "ALTA_TENSI": "Sí (51.73 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 32A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.5202,
+              14.668903,
+              0.0
+            ],
+            [
+              -90.520282,
+              14.668968,
+              0.0
+            ],
+            [
+              -90.520251,
+              14.669,
+              0.0
+            ],
+            [
+              -90.520175,
+              14.668936,
+              0.0
+            ],
+            [
+              -90.5202,
+              14.668903,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 32 · Sector A",
+        "LOTE": "32",
+        "SECTOR": "A",
+        "OCUPADO": "No",
+        "area_m2": 62.38,
+        "perimetro_m": 35.41,
+        "ALTA_TENSI": "Sí (62.38 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 32"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520228,
+              14.668866,
+              0.0
+            ],
+            [
+              -90.520319,
+              14.668943,
+              0.0
+            ],
+            [
+              -90.520291,
+              14.668976,
+              0.0
+            ],
+            [
+              -90.520282,
+              14.668968,
+              0.0
+            ],
+            [
+              -90.5202,
+              14.668903,
+              0.0
+            ],
+            [
+              -90.520228,
+              14.668866,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 30 · Sector A",
+        "LOTE": "30",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 65.3,
+        "perimetro_m": 36.7,
+        "ALTA_TENSI": "Sí (61.35 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520254,
+              14.668828,
+              0.0
+            ],
+            [
+              -90.520349,
+              14.668913,
+              0.0
+            ],
+            [
+              -90.520319,
+              14.668943,
+              0.0
+            ],
+            [
+              -90.520228,
+              14.668866,
+              0.0
+            ],
+            [
+              -90.520254,
+              14.668828,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 28 · Sector A",
+        "LOTE": "28",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 76.54,
+        "perimetro_m": 40.74,
+        "ALTA_TENSI": "Sí (46.12 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52028,
+              14.668787,
+              0.0
+            ],
+            [
+              -90.52039,
+              14.668889,
+              0.0
+            ],
+            [
+              -90.520349,
+              14.668913,
+              0.0
+            ],
+            [
+              -90.520254,
+              14.668828,
+              0.0
+            ],
+            [
+              -90.52028,
+              14.668787,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 12 · Sector A",
+        "LOTE": "12",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 85.41,
+        "perimetro_m": 43.39,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520548,
+              14.66848,
+              0.0
+            ],
+            [
+              -90.520682,
+              14.668549,
+              0.0
+            ],
+            [
+              -90.520659,
+              14.668596,
+              0.0
+            ],
+            [
+              -90.520527,
+              14.668517,
+              0.0
+            ],
+            [
+              -90.520548,
+              14.66848,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 24 · Sector A",
+        "LOTE": "24",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 85.77,
+        "perimetro_m": 45.31,
+        "ALTA_TENSI": "Sí (1.87 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 24"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520343,
+              14.668721,
+              0.0
+            ],
+            [
+              -90.520463,
+              14.668832,
+              0.0
+            ],
+            [
+              -90.520429,
+              14.668861,
+              0.0
+            ],
+            [
+              -90.52031,
+              14.66875,
+              0.0
+            ],
+            [
+              -90.520343,
+              14.668721,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 26 · Sector A",
+        "LOTE": "26",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 88.38,
+        "perimetro_m": 44.62,
+        "ALTA_TENSI": "Sí (23.44 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52031,
+              14.66875,
+              0.0
+            ],
+            [
+              -90.520429,
+              14.668861,
+              0.0
+            ],
+            [
+              -90.52039,
+              14.668889,
+              0.0
+            ],
+            [
+              -90.52028,
+              14.668787,
+              0.0
+            ],
+            [
+              -90.52031,
+              14.66875,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 18 · Sector A",
+        "LOTE": "18",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 89.08,
+        "perimetro_m": 47.18,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520439,
+              14.668623,
+              0.0
+            ],
+            [
+              -90.520576,
+              14.668729,
+              0.0
+            ],
+            [
+              -90.520544,
+              14.668764,
+              0.0
+            ],
+            [
+              -90.520412,
+              14.668651,
+              0.0
+            ],
+            [
+              -90.520439,
+              14.668623,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 22 · Sector A",
+        "LOTE": "22",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 93.76,
+        "perimetro_m": 46.24,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 22"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520378,
+              14.668687,
+              0.0
+            ],
+            [
+              -90.520497,
+              14.668799,
+              0.0
+            ],
+            [
+              -90.520463,
+              14.668832,
+              0.0
+            ],
+            [
+              -90.520343,
+              14.668721,
+              0.0
+            ],
+            [
+              -90.520378,
+              14.668687,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 20 · Sector A",
+        "LOTE": "20",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 107.87,
+        "perimetro_m": 48.6,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520412,
+              14.668651,
+              0.0
+            ],
+            [
+              -90.520544,
+              14.668764,
+              0.0
+            ],
+            [
+              -90.520497,
+              14.668799,
+              0.0
+            ],
+            [
+              -90.520378,
+              14.668687,
+              0.0
+            ],
+            [
+              -90.520412,
+              14.668651,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 14 · Sector A",
+        "LOTE": "14",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 177.34,
+        "perimetro_m": 54.72,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 14"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520527,
+              14.668517,
+              0.0
+            ],
+            [
+              -90.520659,
+              14.668596,
+              0.0
+            ],
+            [
+              -90.520636,
+              14.668638,
+              0.0
+            ],
+            [
+              -90.520611,
+              14.668675,
+              0.0
+            ],
+            [
+              -90.520578,
+              14.668659,
+              0.0
+            ],
+            [
+              -90.52047,
+              14.668584,
+              0.0
+            ],
+            [
+              -90.520527,
+              14.668517,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 23 · Sector A",
+        "LOTE": "23",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 91.09,
+        "perimetro_m": 47.43,
+        "ALTA_TENSI": "Sí (75.27 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52022,
+              14.668564,
+              0.0
+            ],
+            [
+              -90.520358,
+              14.668676,
+              0.0
+            ],
+            [
+              -90.520327,
+              14.668709,
+              0.0
+            ],
+            [
+              -90.520197,
+              14.668601,
+              0.0
+            ],
+            [
+              -90.52022,
+              14.668564,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 25A · Sector A",
+        "LOTE": "25A",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 26.08,
+        "perimetro_m": 20.5,
+        "ALTA_TENSI": "Sí (26.08 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 25A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52016,
+              14.668575,
+              0.0
+            ],
+            [
+              -90.520197,
+              14.668601,
+              0.0
+            ],
+            [
+              -90.520169,
+              14.668643,
+              0.0
+            ],
+            [
+              -90.520134,
+              14.668617,
+              0.0
+            ],
+            [
+              -90.52016,
+              14.668575,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 15 · Sector A",
+        "LOTE": "15",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 71.28,
+        "perimetro_m": 43.46,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Alcantarillado público",
+        "lotes_cont": "Lote 15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520357,
+              14.668442,
+              0.0
+            ],
+            [
+              -90.520484,
+              14.668542,
+              0.0
+            ],
+            [
+              -90.520456,
+              14.668576,
+              0.0
+            ],
+            [
+              -90.520339,
+              14.668464,
+              0.0
+            ],
+            [
+              -90.520357,
+              14.668442,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 9 · Sector A",
+        "LOTE": "9",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 73.04,
+        "perimetro_m": 41.07,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 9"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52043,
+              14.668344,
+              0.0
+            ],
+            [
+              -90.520553,
+              14.668422,
+              0.0
+            ],
+            [
+              -90.520532,
+              14.668461,
+              0.0
+            ],
+            [
+              -90.52041,
+              14.668378,
+              0.0
+            ],
+            [
+              -90.52043,
+              14.668344,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 8 · Sector A",
+        "LOTE": "8",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 76.42,
+        "perimetro_m": 41.79,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 8"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52045,
+              14.668301,
+              0.0
+            ],
+            [
+              -90.520572,
+              14.668388,
+              0.0
+            ],
+            [
+              -90.520553,
+              14.668422,
+              0.0
+            ],
+            [
+              -90.52043,
+              14.668344,
+              0.0
+            ],
+            [
+              -90.52045,
+              14.668301,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 11 · Sector A",
+        "LOTE": "11",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 76.66,
+        "perimetro_m": 42.23,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52041,
+              14.668378,
+              0.0
+            ],
+            [
+              -90.520532,
+              14.668461,
+              0.0
+            ],
+            [
+              -90.520508,
+              14.668502,
+              0.0
+            ],
+            [
+              -90.520386,
+              14.668407,
+              0.0
+            ],
+            [
+              -90.52041,
+              14.668378,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 4 · Sector A",
+        "LOTE": "4",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 82.32,
+        "perimetro_m": 41.99,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52051,
+              14.668222,
+              0.0
+            ],
+            [
+              -90.520625,
+              14.668306,
+              0.0
+            ],
+            [
+              -90.520596,
+              14.668345,
+              0.0
+            ],
+            [
+              -90.520479,
+              14.668257,
+              0.0
+            ],
+            [
+              -90.52051,
+              14.668222,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 13 · Sector A",
+        "LOTE": "13",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 85.66,
+        "perimetro_m": 44.51,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 13"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520386,
+              14.668407,
+              0.0
+            ],
+            [
+              -90.520508,
+              14.668502,
+              0.0
+            ],
+            [
+              -90.520484,
+              14.668542,
+              0.0
+            ],
+            [
+              -90.520357,
+              14.668442,
+              0.0
+            ],
+            [
+              -90.520386,
+              14.668407,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 6 · Sector A",
+        "LOTE": "6",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 89.21,
+        "perimetro_m": 43.44,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520479,
+              14.668257,
+              0.0
+            ],
+            [
+              -90.520596,
+              14.668345,
+              0.0
+            ],
+            [
+              -90.520572,
+              14.668388,
+              0.0
+            ],
+            [
+              -90.52045,
+              14.668301,
+              0.0
+            ],
+            [
+              -90.520479,
+              14.668257,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 21 · Sector A",
+        "LOTE": "21",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 97.16,
+        "perimetro_m": 49.05,
+        "ALTA_TENSI": "Sí (57.09 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520251,
+              14.668529,
+              0.0
+            ],
+            [
+              -90.520391,
+              14.668645,
+              0.0
+            ],
+            [
+              -90.520358,
+              14.668676,
+              0.0
+            ],
+            [
+              -90.52022,
+              14.668564,
+              0.0
+            ],
+            [
+              -90.520251,
+              14.668529,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 15A · Sector A",
+        "LOTE": "15A",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 102.93,
+        "perimetro_m": 48.1,
+        "ALTA_TENSI": "Sí (3.74 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 15A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520339,
+              14.668464,
+              0.0
+            ],
+            [
+              -90.520456,
+              14.668576,
+              0.0
+            ],
+            [
+              -90.520423,
+              14.66861,
+              0.0
+            ],
+            [
+              -90.520291,
+              14.668496,
+              0.0
+            ],
+            [
+              -90.520339,
+              14.668464,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 19 · Sector A",
+        "LOTE": "19",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 104.75,
+        "perimetro_m": 49.69,
+        "ALTA_TENSI": "Sí (33.73 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 19"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520291,
+              14.668496,
+              0.0
+            ],
+            [
+              -90.520423,
+              14.66861,
+              0.0
+            ],
+            [
+              -90.520391,
+              14.668645,
+              0.0
+            ],
+            [
+              -90.520251,
+              14.668529,
+              0.0
+            ],
+            [
+              -90.520291,
+              14.668496,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 25 · Sector A",
+        "LOTE": "25",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 89.04,
+        "perimetro_m": 45.26,
+        "ALTA_TENSI": "Sí (88.63 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 25"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520197,
+              14.668601,
+              0.0
+            ],
+            [
+              -90.520327,
+              14.668709,
+              0.0
+            ],
+            [
+              -90.520303,
+              14.668731,
+              0.0
+            ],
+            [
+              -90.520297,
+              14.668731,
+              0.0
+            ],
+            [
+              -90.520292,
+              14.668731,
+              0.0
+            ],
+            [
+              -90.520286,
+              14.66873,
+              0.0
+            ],
+            [
+              -90.520169,
+              14.668643,
+              0.0
+            ],
+            [
+              -90.520197,
+              14.668601,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 27 · Sector A",
+        "LOTE": "27",
+        "SECTOR": "A",
+        "OCUPADO": "No",
+        "area_m2": 60.91,
+        "perimetro_m": 31.4,
+        "ALTA_TENSI": "Sí (60.91 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Alcantarillado público",
+        "lotes_cont": "Lote 27"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520284,
+              14.66875,
+              0.0
+            ],
+            [
+              -90.520245,
+              14.6688,
+              0.0
+            ],
+            [
+              -90.52018,
+              14.668753,
+              0.0
+            ],
+            [
+              -90.520219,
+              14.668703,
+              0.0
+            ],
+            [
+              -90.520284,
+              14.66875,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 27A · Sector A",
+        "LOTE": "27A",
+        "SECTOR": "A",
+        "OCUPADO": "No",
+        "area_m2": 60.46,
+        "perimetro_m": 33.71,
+        "ALTA_TENSI": "Sí (60.46 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 27A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520219,
+              14.668703,
+              0.0
+            ],
+            [
+              -90.520199,
+              14.668729,
+              0.0
+            ],
+            [
+              -90.520158,
+              14.66871,
+              0.0
+            ],
+            [
+              -90.520113,
+              14.668716,
+              0.0
+            ],
+            [
+              -90.520111,
+              14.668696,
+              0.0
+            ],
+            [
+              -90.520121,
+              14.668668,
+              0.0
+            ],
+            [
+              -90.520135,
+              14.668642,
+              0.0
+            ],
+            [
+              -90.520139,
+              14.66864,
+              0.0
+            ],
+            [
+              -90.520219,
+              14.668703,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 29 · Sector A",
+        "LOTE": "29",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 86.09,
+        "perimetro_m": 37.78,
+        "ALTA_TENSI": "Sí (86.09 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 29"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520245,
+              14.6688,
+              0.0
+            ],
+            [
+              -90.520213,
+              14.668847,
+              0.0
+            ],
+            [
+              -90.520119,
+              14.668798,
+              0.0
+            ],
+            [
+              -90.520117,
+              14.668758,
+              0.0
+            ],
+            [
+              -90.520138,
+              14.668754,
+              0.0
+            ],
+            [
+              -90.52018,
+              14.668753,
+              0.0
+            ],
+            [
+              -90.520245,
+              14.6688,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 31 · Sector A",
+        "LOTE": "31",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 99.17,
+        "perimetro_m": 40.87,
+        "ALTA_TENSI": "Sí (99.17 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 31"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520213,
+              14.668847,
+              0.0
+            ],
+            [
+              -90.520164,
+              14.668926,
+              0.0
+            ],
+            [
+              -90.520156,
+              14.66893,
+              0.0
+            ],
+            [
+              -90.520129,
+              14.668922,
+              0.0
+            ],
+            [
+              -90.52011,
+              14.668914,
+              0.0
+            ],
+            [
+              -90.520119,
+              14.668798,
+              0.0
+            ],
+            [
+              -90.520213,
+              14.668847,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 43 · Sector A",
+        "LOTE": "43",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 79.84,
+        "perimetro_m": 42.67,
+        "ALTA_TENSI": "Sí (51.66 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 43"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520097,
+              14.668766,
+              0.0
+            ],
+            [
+              -90.520099,
+              14.66881,
+              0.0
+            ],
+            [
+              -90.519992,
+              14.668812,
+              0.0
+            ],
+            [
+              -90.519958,
+              14.668818,
+              0.0
+            ],
+            [
+              -90.519939,
+              14.668774,
+              0.0
+            ],
+            [
+              -90.52,
+              14.668768,
+              0.0
+            ],
+            [
+              -90.520097,
+              14.668766,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 45 · Sector A",
+        "LOTE": "45",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 53.93,
+        "perimetro_m": 32.67,
+        "ALTA_TENSI": "Sí (47.28 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 45"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519993,
+              14.668854,
+              0.0
+            ],
+            [
+              -90.5201,
+              14.668858,
+              0.0
+            ],
+            [
+              -90.520101,
+              14.668897,
+              0.0
+            ],
+            [
+              -90.519991,
+              14.668899,
+              0.0
+            ],
+            [
+              -90.519993,
+              14.668854,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 44 · Sector A",
+        "LOTE": "44",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 57.28,
+        "perimetro_m": 32.97,
+        "ALTA_TENSI": "Sí (52.29 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 44"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520099,
+              14.66881,
+              0.0
+            ],
+            [
+              -90.5201,
+              14.668858,
+              0.0
+            ],
+            [
+              -90.519993,
+              14.668854,
+              0.0
+            ],
+            [
+              -90.519992,
+              14.668812,
+              0.0
+            ],
+            [
+              -90.520099,
+              14.66881,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 46 · Sector A",
+        "LOTE": "46",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 63.34,
+        "perimetro_m": 34.55,
+        "ALTA_TENSI": "Sí (53.57 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 46"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520101,
+              14.668897,
+              0.0
+            ],
+            [
+              -90.520099,
+              14.668946,
+              0.0
+            ],
+            [
+              -90.519988,
+              14.668945,
+              0.0
+            ],
+            [
+              -90.519991,
+              14.668899,
+              0.0
+            ],
+            [
+              -90.520101,
+              14.668897,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 42A · Sector A",
+        "LOTE": "42A",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 44.04,
+        "perimetro_m": 28.92,
+        "ALTA_TENSI": "Sí (44.04 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 42A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520032,
+              14.668726,
+              0.0
+            ],
+            [
+              -90.520096,
+              14.668732,
+              0.0
+            ],
+            [
+              -90.520097,
+              14.668766,
+              0.0
+            ],
+            [
+              -90.52,
+              14.668768,
+              0.0
+            ],
+            [
+              -90.519998,
+              14.668729,
+              0.0
+            ],
+            [
+              -90.520032,
+              14.668726,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 42 · Sector A",
+        "LOTE": "42",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 28.35,
+        "perimetro_m": 21.91,
+        "ALTA_TENSI": "Sí (0.33 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 42"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519998,
+              14.668729,
+              0.0
+            ],
+            [
+              -90.52,
+              14.668768,
+              0.0
+            ],
+            [
+              -90.519939,
+              14.668774,
+              0.0
+            ],
+            [
+              -90.519935,
+              14.668736,
+              0.0
+            ],
+            [
+              -90.519987,
+              14.668731,
+              0.0
+            ],
+            [
+              -90.519997,
+              14.66873,
+              0.0
+            ],
+            [
+              -90.519998,
+              14.668729,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 35 · Sector A",
+        "LOTE": "35",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 53.37,
+        "perimetro_m": 31.28,
+        "ALTA_TENSI": "Sí (53.37 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 35"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520095,
+              14.668721,
+              0.0
+            ],
+            [
+              -90.519997,
+              14.668715,
+              0.0
+            ],
+            [
+              -90.520002,
+              14.668669,
+              0.0
+            ],
+            [
+              -90.5201,
+              14.668676,
+              0.0
+            ],
+            [
+              -90.520095,
+              14.668721,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 34 · Sector A",
+        "LOTE": "34",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 57.02,
+        "perimetro_m": 32.36,
+        "ALTA_TENSI": "Sí (57.02 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 34"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.5201,
+              14.668676,
+              0.0
+            ],
+            [
+              -90.520002,
+              14.668669,
+              0.0
+            ],
+            [
+              -90.520004,
+              14.668622,
+              0.0
+            ],
+            [
+              -90.520056,
+              14.668626,
+              0.0
+            ],
+            [
+              -90.52011,
+              14.66863,
+              0.0
+            ],
+            [
+              -90.5201,
+              14.668676,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 33 · Sector A",
+        "LOTE": "33",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 106.46,
+        "perimetro_m": 45.33,
+        "ALTA_TENSI": "Sí (106.46 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 33"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.52011,
+              14.66863,
+              0.0
+            ],
+            [
+              -90.520056,
+              14.668626,
+              0.0
+            ],
+            [
+              -90.520066,
+              14.668548,
+              0.0
+            ],
+            [
+              -90.520067,
+              14.668482,
+              0.0
+            ],
+            [
+              -90.520134,
+              14.668485,
+              0.0
+            ],
+            [
+              -90.520129,
+              14.668555,
+              0.0
+            ],
+            [
+              -90.52011,
+              14.66863,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 36 · Sector A",
+        "LOTE": "36",
+        "SECTOR": "A",
+        "OCUPADO": "No",
+        "area_m2": 95.33,
+        "perimetro_m": 43.64,
+        "ALTA_TENSI": "Sí (95.33 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 36"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520004,
+              14.668622,
+              0.0
+            ],
+            [
+              -90.520005,
+              14.668603,
+              0.0
+            ],
+            [
+              -90.520011,
+              14.66852,
+              0.0
+            ],
+            [
+              -90.520014,
+              14.668476,
+              0.0
+            ],
+            [
+              -90.520067,
+              14.668482,
+              0.0
+            ],
+            [
+              -90.520066,
+              14.668548,
+              0.0
+            ],
+            [
+              -90.520056,
+              14.668626,
+              0.0
+            ],
+            [
+              -90.520004,
+              14.668622,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 38C · Sector B",
+        "LOTE": "38C",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 89.29,
+        "perimetro_m": 38.25,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 38C"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.51971,
+              14.668407,
+              0.0
+            ],
+            [
+              -90.519778,
+              14.66844,
+              0.0
+            ],
+            [
+              -90.519723,
+              14.668528,
+              0.0
+            ],
+            [
+              -90.51966,
+              14.668488,
+              0.0
+            ],
+            [
+              -90.51971,
+              14.668407,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 38B · Sector B",
+        "LOTE": "38B",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 53.4,
+        "perimetro_m": 32.65,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 38B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519778,
+              14.66844,
+              0.0
+            ],
+            [
+              -90.519825,
+              14.668453,
+              0.0
+            ],
+            [
+              -90.519765,
+              14.668537,
+              0.0
+            ],
+            [
+              -90.519723,
+              14.668528,
+              0.0
+            ],
+            [
+              -90.519778,
+              14.66844,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 37A · Sector B",
+        "LOTE": "37A",
+        "SECTOR": "B",
+        "OCUPADO": "No",
+        "area_m2": 55.8,
+        "perimetro_m": 31.94,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 37A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519926,
+              14.668489,
+              0.0
+            ],
+            [
+              -90.519968,
+              14.668511,
+              0.0
+            ],
+            [
+              -90.519923,
+              14.668586,
+              0.0
+            ],
+            [
+              -90.51987,
+              14.668576,
+              0.0
+            ],
+            [
+              -90.519926,
+              14.668489,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 37 · Sector B",
+        "LOTE": "37",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 64.21,
+        "perimetro_m": 32.57,
+        "ALTA_TENSI": "Sí (18.4 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 37"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520011,
+              14.66852,
+              0.0
+            ],
+            [
+              -90.520005,
+              14.668603,
+              0.0
+            ],
+            [
+              -90.519954,
+              14.668595,
+              0.0
+            ],
+            [
+              -90.519923,
+              14.668586,
+              0.0
+            ],
+            [
+              -90.519968,
+              14.668511,
+              0.0
+            ],
+            [
+              -90.520011,
+              14.66852,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 38 · Sector B",
+        "LOTE": "38",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 64.48,
+        "perimetro_m": 35.13,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 38"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519885,
+              14.668474,
+              0.0
+            ],
+            [
+              -90.519926,
+              14.668489,
+              0.0
+            ],
+            [
+              -90.51987,
+              14.668576,
+              0.0
+            ],
+            [
+              -90.519809,
+              14.668557,
+              0.0
+            ],
+            [
+              -90.519885,
+              14.668474,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 38A · Sector B",
+        "LOTE": "38A",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 68.14,
+        "perimetro_m": 35.6,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 38A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519825,
+              14.668453,
+              0.0
+            ],
+            [
+              -90.519885,
+              14.668474,
+              0.0
+            ],
+            [
+              -90.519809,
+              14.668557,
+              0.0
+            ],
+            [
+              -90.519765,
+              14.668537,
+              0.0
+            ],
+            [
+              -90.519825,
+              14.668453,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 39A · Sector B",
+        "LOTE": "39A",
+        "SECTOR": "B",
+        "OCUPADO": "No",
+        "area_m2": 38.59,
+        "perimetro_m": 26.74,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 39A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519756,
+              14.668559,
+              0.0
+            ],
+            [
+              -90.519795,
+              14.668569,
+              0.0
+            ],
+            [
+              -90.519777,
+              14.668648,
+              0.0
+            ],
+            [
+              -90.519739,
+              14.668641,
+              0.0
+            ],
+            [
+              -90.519756,
+              14.668559,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 39B · Sector B",
+        "LOTE": "39B",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 49.91,
+        "perimetro_m": 29.84,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 39B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519715,
+              14.668538,
+              0.0
+            ],
+            [
+              -90.519756,
+              14.668559,
+              0.0
+            ],
+            [
+              -90.519739,
+              14.668641,
+              0.0
+            ],
+            [
+              -90.519697,
+              14.668635,
+              0.0
+            ],
+            [
+              -90.5197,
+              14.668597,
+              0.0
+            ],
+            [
+              -90.519715,
+              14.668538,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 41 · Sector A",
+        "LOTE": "41",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 56.67,
+        "perimetro_m": 29.96,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 41"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519987,
+              14.668731,
+              0.0
+            ],
+            [
+              -90.519935,
+              14.668736,
+              0.0
+            ],
+            [
+              -90.519923,
+              14.668737,
+              0.0
+            ],
+            [
+              -90.519922,
+              14.668677,
+              0.0
+            ],
+            [
+              -90.519925,
+              14.668657,
+              0.0
+            ],
+            [
+              -90.519987,
+              14.668665,
+              0.0
+            ],
+            [
+              -90.519987,
+              14.668731,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 40 · Sector B",
+        "LOTE": "40",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 78.28,
+        "perimetro_m": 39.3,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 40"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519898,
+              14.668597,
+              0.0
+            ],
+            [
+              -90.51999,
+              14.668613,
+              0.0
+            ],
+            [
+              -90.519987,
+              14.668665,
+              0.0
+            ],
+            [
+              -90.519925,
+              14.668657,
+              0.0
+            ],
+            [
+              -90.519922,
+              14.668677,
+              0.0
+            ],
+            [
+              -90.519869,
+              14.668671,
+              0.0
+            ],
+            [
+              -90.519898,
+              14.668597,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 39C · Sector B",
+        "LOTE": "39C",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 86.62,
+        "perimetro_m": 37.8,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 39C"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519649,
+              14.668516,
+              0.0
+            ],
+            [
+              -90.519715,
+              14.668538,
+              0.0
+            ],
+            [
+              -90.5197,
+              14.668597,
+              0.0
+            ],
+            [
+              -90.519697,
+              14.668635,
+              0.0
+            ],
+            [
+              -90.519651,
+              14.668641,
+              0.0
+            ],
+            [
+              -90.519633,
+              14.668593,
+              0.0
+            ],
+            [
+              -90.519637,
+              14.668556,
+              0.0
+            ],
+            [
+              -90.519649,
+              14.668516,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 52 · Sector B",
+        "LOTE": "52",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 118.3,
+        "perimetro_m": 43.73,
+        "ALTA_TENSI": "Sí (118.3 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 52"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520063,
+              14.669139,
+              0.0
+            ],
+            [
+              -90.52017,
+              14.669163,
+              0.0
+            ],
+            [
+              -90.520122,
+              14.669258,
+              0.0
+            ],
+            [
+              -90.520035,
+              14.669228,
+              0.0
+            ],
+            [
+              -90.520063,
+              14.669139,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 49A · Sector B",
+        "LOTE": "49A",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 51.22,
+        "perimetro_m": 31.17,
+        "ALTA_TENSI": "Sí (51.22 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 49A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520092,
+              14.669068,
+              0.0
+            ],
+            [
+              -90.520186,
+              14.669088,
+              0.0
+            ],
+            [
+              -90.520177,
+              14.669131,
+              0.0
+            ],
+            [
+              -90.520076,
+              14.669107,
+              0.0
+            ],
+            [
+              -90.520092,
+              14.669068,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 54 · Sector B",
+        "LOTE": "54",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 52.56,
+        "perimetro_m": 30.84,
+        "ALTA_TENSI": "Sí (52.04 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 54"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520035,
+              14.669228,
+              0.0
+            ],
+            [
+              -90.520122,
+              14.669258,
+              0.0
+            ],
+            [
+              -90.520106,
+              14.669307,
+              0.0
+            ],
+            [
+              -90.520017,
+              14.669266,
+              0.0
+            ],
+            [
+              -90.520035,
+              14.669228,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 56 · Sector B",
+        "LOTE": "56",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 77.86,
+        "perimetro_m": 38.4,
+        "ALTA_TENSI": "Sí (65.25 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 56"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520017,
+              14.669266,
+              0.0
+            ],
+            [
+              -90.520106,
+              14.669307,
+              0.0
+            ],
+            [
+              -90.52013,
+              14.669328,
+              0.0
+            ],
+            [
+              -90.520106,
+              14.669367,
+              0.0
+            ],
+            [
+              -90.519993,
+              14.669308,
+              0.0
+            ],
+            [
+              -90.520017,
+              14.669266,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 58 · Sector B",
+        "LOTE": "58",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 98.81,
+        "perimetro_m": 47.2,
+        "ALTA_TENSI": "Sí (72.16 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 58"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519993,
+              14.669308,
+              0.0
+            ],
+            [
+              -90.520106,
+              14.669367,
+              0.0
+            ],
+            [
+              -90.520143,
+              14.669399,
+              0.0
+            ],
+            [
+              -90.520112,
+              14.669437,
+              0.0
+            ],
+            [
+              -90.520018,
+              14.669372,
+              0.0
+            ],
+            [
+              -90.519973,
+              14.669348,
+              0.0
+            ],
+            [
+              -90.519993,
+              14.669308,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 47 · Sector B",
+        "LOTE": "47",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 55.89,
+        "perimetro_m": 31.19,
+        "ALTA_TENSI": "Sí (49.88 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 47"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520097,
+              14.668965,
+              0.0
+            ],
+            [
+              -90.520085,
+              14.669017,
+              0.0
+            ],
+            [
+              -90.519994,
+              14.669007,
+              0.0
+            ],
+            [
+              -90.520005,
+              14.668959,
+              0.0
+            ],
+            [
+              -90.520097,
+              14.668965,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 50 · Sector B",
+        "LOTE": "50",
+        "SECTOR": "B",
+        "OCUPADO": "No",
+        "area_m2": 44.98,
+        "perimetro_m": 28.85,
+        "ALTA_TENSI": "Sí (17.34 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 50"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519968,
+              14.669091,
+              0.0
+            ],
+            [
+              -90.520055,
+              14.669103,
+              0.0
+            ],
+            [
+              -90.520047,
+              14.669143,
+              0.0
+            ],
+            [
+              -90.519954,
+              14.669132,
+              0.0
+            ],
+            [
+              -90.519968,
+              14.669091,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 48 · Sector B",
+        "LOTE": "48",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 45.9,
+        "perimetro_m": 28.93,
+        "ALTA_TENSI": "Sí (35.38 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Alcantarillado público",
+        "lotes_cont": "Lote 48"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519994,
+              14.669007,
+              0.0
+            ],
+            [
+              -90.520085,
+              14.669017,
+              0.0
+            ],
+            [
+              -90.520073,
+              14.669062,
+              0.0
+            ],
+            [
+              -90.519986,
+              14.669045,
+              0.0
+            ],
+            [
+              -90.519994,
+              14.669007,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 49 · Sector B",
+        "LOTE": "49",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 47.38,
+        "perimetro_m": 29.18,
+        "ALTA_TENSI": "Sí (26.73 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Alcantarillado público",
+        "lotes_cont": "Lote 49"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519986,
+              14.669045,
+              0.0
+            ],
+            [
+              -90.520073,
+              14.669062,
+              0.0
+            ],
+            [
+              -90.520055,
+              14.669103,
+              0.0
+            ],
+            [
+              -90.519968,
+              14.669091,
+              0.0
+            ],
+            [
+              -90.519986,
+              14.669045,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 55 · Sector B",
+        "LOTE": "55",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 49.85,
+        "perimetro_m": 30.74,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 55"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519924,
+              14.669217,
+              0.0
+            ],
+            [
+              -90.520014,
+              14.669241,
+              0.0
+            ],
+            [
+              -90.519991,
+              14.669278,
+              0.0
+            ],
+            [
+              -90.519896,
+              14.669259,
+              0.0
+            ],
+            [
+              -90.519924,
+              14.669217,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 53 · Sector B",
+        "LOTE": "53",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 53.0,
+        "perimetro_m": 30.83,
+        "ALTA_TENSI": "Sí (2.62 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 53"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519939,
+              14.669177,
+              0.0
+            ],
+            [
+              -90.520033,
+              14.669191,
+              0.0
+            ],
+            [
+              -90.520014,
+              14.669241,
+              0.0
+            ],
+            [
+              -90.519924,
+              14.669217,
+              0.0
+            ],
+            [
+              -90.519939,
+              14.669177,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 57 · Sector B",
+        "LOTE": "57",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 53.24,
+        "perimetro_m": 30.96,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 57"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519896,
+              14.669259,
+              0.0
+            ],
+            [
+              -90.519991,
+              14.669278,
+              0.0
+            ],
+            [
+              -90.51997,
+              14.669327,
+              0.0
+            ],
+            [
+              -90.519882,
+              14.669297,
+              0.0
+            ],
+            [
+              -90.519896,
+              14.669259,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 51 · Sector B",
+        "LOTE": "51",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 54.43,
+        "perimetro_m": 31.19,
+        "ALTA_TENSI": "Sí (13.0 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 51"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519954,
+              14.669132,
+              0.0
+            ],
+            [
+              -90.520047,
+              14.669143,
+              0.0
+            ],
+            [
+              -90.520033,
+              14.669191,
+              0.0
+            ],
+            [
+              -90.519939,
+              14.669177,
+              0.0
+            ],
+            [
+              -90.519954,
+              14.669132,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 62 · Sector B",
+        "LOTE": "62",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 67.75,
+        "perimetro_m": 39.05,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 62"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519826,
+              14.669054,
+              0.0
+            ],
+            [
+              -90.519953,
+              14.669087,
+              0.0
+            ],
+            [
+              -90.519942,
+              14.669126,
+              0.0
+            ],
+            [
+              -90.519802,
+              14.669092,
+              0.0
+            ],
+            [
+              -90.519826,
+              14.669054,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 66 · Sector B",
+        "LOTE": "66",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 70.42,
+        "perimetro_m": 34.21,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 66"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519795,
+              14.66922,
+              0.0
+            ],
+            [
+              -90.519883,
+              14.669258,
+              0.0
+            ],
+            [
+              -90.519856,
+              14.669318,
+              0.0
+            ],
+            [
+              -90.519775,
+              14.669277,
+              0.0
+            ],
+            [
+              -90.519774,
+              14.669277,
+              0.0
+            ],
+            [
+              -90.519795,
+              14.66922,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 61 · Sector B",
+        "LOTE": "61",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 70.64,
+        "perimetro_m": 38.18,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 61"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.51984,
+              14.669013,
+              0.0
+            ],
+            [
+              -90.519966,
+              14.669041,
+              0.0
+            ],
+            [
+              -90.519953,
+              14.669087,
+              0.0
+            ],
+            [
+              -90.519826,
+              14.669054,
+              0.0
+            ],
+            [
+              -90.51984,
+              14.669013,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 60 · Sector B",
+        "LOTE": "60",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 71.32,
+        "perimetro_m": 37.92,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 60"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519855,
+              14.668967,
+              0.0
+            ],
+            [
+              -90.519977,
+              14.668998,
+              0.0
+            ],
+            [
+              -90.519966,
+              14.669041,
+              0.0
+            ],
+            [
+              -90.51984,
+              14.669013,
+              0.0
+            ],
+            [
+              -90.519855,
+              14.668967,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 64 · Sector B",
+        "LOTE": "64",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 77.36,
+        "perimetro_m": 41.45,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 64"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519787,
+              14.66913,
+              0.0
+            ],
+            [
+              -90.519927,
+              14.669175,
+              0.0
+            ],
+            [
+              -90.519907,
+              14.669218,
+              0.0
+            ],
+            [
+              -90.51977,
+              14.669168,
+              0.0
+            ],
+            [
+              -90.519787,
+              14.66913,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 63 · Sector B",
+        "LOTE": "63",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 79.96,
+        "perimetro_m": 41.59,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 63"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519802,
+              14.669092,
+              0.0
+            ],
+            [
+              -90.519942,
+              14.669126,
+              0.0
+            ],
+            [
+              -90.519927,
+              14.669175,
+              0.0
+            ],
+            [
+              -90.519787,
+              14.66913,
+              0.0
+            ],
+            [
+              -90.519802,
+              14.669092,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 59 · Sector B",
+        "LOTE": "59",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 91.51,
+        "perimetro_m": 40.28,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 59"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519991,
+              14.668945,
+              0.0
+            ],
+            [
+              -90.519977,
+              14.668998,
+              0.0
+            ],
+            [
+              -90.519855,
+              14.668967,
+              0.0
+            ],
+            [
+              -90.519884,
+              14.668899,
+              0.0
+            ],
+            [
+              -90.519991,
+              14.668945,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 65 · Sector B",
+        "LOTE": "65",
+        "SECTOR": "B",
+        "OCUPADO": "Sí",
+        "area_m2": 71.44,
+        "perimetro_m": 40.15,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 65"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.51977,
+              14.669168,
+              0.0
+            ],
+            [
+              -90.519907,
+              14.669218,
+              0.0
+            ],
+            [
+              -90.519883,
+              14.669258,
+              0.0
+            ],
+            [
+              -90.519795,
+              14.66922,
+              0.0
+            ],
+            [
+              -90.519755,
+              14.669202,
+              0.0
+            ],
+            [
+              -90.51977,
+              14.669168,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 69 · Sector C",
+        "LOTE": "69",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 75.89,
+        "perimetro_m": 41.41,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 69"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519875,
+              14.669348,
+              0.0
+            ],
+            [
+              -90.520007,
+              14.669418,
+              0.0
+            ],
+            [
+              -90.519978,
+              14.669451,
+              0.0
+            ],
+            [
+              -90.519851,
+              14.669386,
+              0.0
+            ],
+            [
+              -90.519875,
+              14.669348,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 79 · Sector C",
+        "LOTE": "79",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 77.28,
+        "perimetro_m": 42.5,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 79"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519716,
+              14.669497,
+              0.0
+            ],
+            [
+              -90.519812,
+              14.66962,
+              0.0
+            ],
+            [
+              -90.519775,
+              14.66964,
+              0.0
+            ],
+            [
+              -90.519683,
+              14.669528,
+              0.0
+            ],
+            [
+              -90.519716,
+              14.669497,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 68 · Sector C",
+        "LOTE": "68",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 78.26,
+        "perimetro_m": 41.6,
+        "ALTA_TENSI": "Sí (0.0 m² en servidumbre)",
+        "en_alta_tension": "SI",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 68"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520028,
+              14.66938,
+              0.0
+            ],
+            [
+              -90.520007,
+              14.669418,
+              0.0
+            ],
+            [
+              -90.519875,
+              14.669348,
+              0.0
+            ],
+            [
+              -90.519894,
+              14.669314,
+              0.0
+            ],
+            [
+              -90.519973,
+              14.669348,
+              0.0
+            ],
+            [
+              -90.520028,
+              14.66938,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 71 · Sector C",
+        "LOTE": "71",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 84.68,
+        "perimetro_m": 41.78,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 71"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519851,
+              14.669386,
+              0.0
+            ],
+            [
+              -90.519978,
+              14.669451,
+              0.0
+            ],
+            [
+              -90.519938,
+              14.669493,
+              0.0
+            ],
+            [
+              -90.519821,
+              14.669421,
+              0.0
+            ],
+            [
+              -90.519851,
+              14.669386,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 73 · Sector C",
+        "LOTE": "73",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 87.13,
+        "perimetro_m": 43.23,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 73"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519821,
+              14.669421,
+              0.0
+            ],
+            [
+              -90.519938,
+              14.669493,
+              0.0
+            ],
+            [
+              -90.519908,
+              14.669544,
+              0.0
+            ],
+            [
+              -90.519785,
+              14.669446,
+              0.0
+            ],
+            [
+              -90.519821,
+              14.669421,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 81 · Sector C",
+        "LOTE": "81",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 88.0,
+        "perimetro_m": 41.96,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 81"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519683,
+              14.669528,
+              0.0
+            ],
+            [
+              -90.519775,
+              14.66964,
+              0.0
+            ],
+            [
+              -90.519741,
+              14.669665,
+              0.0
+            ],
+            [
+              -90.519643,
+              14.669581,
+              0.0
+            ],
+            [
+              -90.519683,
+              14.669528,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 77 · Sector C",
+        "LOTE": "77",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 95.25,
+        "perimetro_m": 45.9,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 77"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519748,
+              14.669476,
+              0.0
+            ],
+            [
+              -90.519866,
+              14.669587,
+              0.0
+            ],
+            [
+              -90.519812,
+              14.66962,
+              0.0
+            ],
+            [
+              -90.519716,
+              14.669497,
+              0.0
+            ],
+            [
+              -90.519748,
+              14.669476,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 75A · Sector C",
+        "LOTE": "75A",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 55.72,
+        "perimetro_m": 30.39,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 75A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519843,
+              14.669492,
+              0.0
+            ],
+            [
+              -90.519908,
+              14.669544,
+              0.0
+            ],
+            [
+              -90.519866,
+              14.669587,
+              0.0
+            ],
+            [
+              -90.519807,
+              14.669531,
+              0.0
+            ],
+            [
+              -90.519843,
+              14.669492,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 70 · Sector C",
+        "LOTE": "70",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 59.8,
+        "perimetro_m": 31.04,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 70"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519863,
+              14.669342,
+              0.0
+            ],
+            [
+              -90.519814,
+              14.6694,
+              0.0
+            ],
+            [
+              -90.519762,
+              14.669365,
+              0.0
+            ],
+            [
+              -90.51979,
+              14.669313,
+              0.0
+            ],
+            [
+              -90.519808,
+              14.669319,
+              0.0
+            ],
+            [
+              -90.519815,
+              14.669312,
+              0.0
+            ],
+            [
+              -90.519863,
+              14.669342,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 72 · Sector C",
+        "LOTE": "72",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 47.95,
+        "perimetro_m": 28.12,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 72"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519814,
+              14.6694,
+              0.0
+            ],
+            [
+              -90.51977,
+              14.669438,
+              0.0
+            ],
+            [
+              -90.519753,
+              14.669449,
+              0.0
+            ],
+            [
+              -90.519745,
+              14.669443,
+              0.0
+            ],
+            [
+              -90.519717,
+              14.669423,
+              0.0
+            ],
+            [
+              -90.519725,
+              14.669412,
+              0.0
+            ],
+            [
+              -90.519762,
+              14.669365,
+              0.0
+            ],
+            [
+              -90.519814,
+              14.6694,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 74 · Sector C",
+        "LOTE": "74",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 110.5,
+        "perimetro_m": 53.83,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 74"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.51956,
+              14.669339,
+              0.0
+            ],
+            [
+              -90.519651,
+              14.669377,
+              0.0
+            ],
+            [
+              -90.519697,
+              14.669408,
+              0.0
+            ],
+            [
+              -90.519717,
+              14.669423,
+              0.0
+            ],
+            [
+              -90.519745,
+              14.669443,
+              0.0
+            ],
+            [
+              -90.519718,
+              14.669475,
+              0.0
+            ],
+            [
+              -90.519708,
+              14.669468,
+              0.0
+            ],
+            [
+              -90.519615,
+              14.669411,
+              0.0
+            ],
+            [
+              -90.519548,
+              14.669386,
+              0.0
+            ],
+            [
+              -90.51956,
+              14.669339,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 86 · Sector C",
+        "LOTE": "86",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 61.14,
+        "perimetro_m": 36.46,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 86"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519485,
+              14.669552,
+              0.0
+            ],
+            [
+              -90.519596,
+              14.669619,
+              0.0
+            ],
+            [
+              -90.519571,
+              14.669655,
+              0.0
+            ],
+            [
+              -90.519469,
+              14.669585,
+              0.0
+            ],
+            [
+              -90.519485,
+              14.669552,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 86B · Sector C",
+        "LOTE": "86B",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 80.25,
+        "perimetro_m": 35.95,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 86B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519489,
+              14.669773,
+              0.0
+            ],
+            [
+              -90.519427,
+              14.669735,
+              0.0
+            ],
+            [
+              -90.51947,
+              14.66966,
+              0.0
+            ],
+            [
+              -90.519539,
+              14.669699,
+              0.0
+            ],
+            [
+              -90.519489,
+              14.669773,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 82 · Sector C",
+        "LOTE": "82",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 82.67,
+        "perimetro_m": 40.3,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 82"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519508,
+              14.669506,
+              0.0
+            ],
+            [
+              -90.519625,
+              14.669574,
+              0.0
+            ],
+            [
+              -90.519596,
+              14.669619,
+              0.0
+            ],
+            [
+              -90.519485,
+              14.669552,
+              0.0
+            ],
+            [
+              -90.519508,
+              14.669506,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 86A · Sector C",
+        "LOTE": "86A",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 84.31,
+        "perimetro_m": 38.8,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 86A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519469,
+              14.669585,
+              0.0
+            ],
+            [
+              -90.519571,
+              14.669655,
+              0.0
+            ],
+            [
+              -90.519539,
+              14.669699,
+              0.0
+            ],
+            [
+              -90.51947,
+              14.66966,
+              0.0
+            ],
+            [
+              -90.519439,
+              14.669637,
+              0.0
+            ],
+            [
+              -90.519469,
+              14.669585,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 80 · Sector C",
+        "LOTE": "80",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 86.65,
+        "perimetro_m": 42.36,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 80"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519532,
+              14.66945,
+              0.0
+            ],
+            [
+              -90.51965,
+              14.669538,
+              0.0
+            ],
+            [
+              -90.519625,
+              14.669574,
+              0.0
+            ],
+            [
+              -90.519508,
+              14.669506,
+              0.0
+            ],
+            [
+              -90.519528,
+              14.669465,
+              0.0
+            ],
+            [
+              -90.519532,
+              14.66945,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 85 · Sector C",
+        "LOTE": "85",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 107.56,
+        "perimetro_m": 51.84,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 85"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519717,
+              14.669423,
+              0.0
+            ],
+            [
+              -90.519651,
+              14.669377,
+              0.0
+            ],
+            [
+              -90.51956,
+              14.669339,
+              0.0
+            ],
+            [
+              -90.51957,
+              14.669306,
+              0.0
+            ],
+            [
+              -90.519579,
+              14.669291,
+              0.0
+            ],
+            [
+              -90.519736,
+              14.669371,
+              0.0
+            ],
+            [
+              -90.51975,
+              14.669381,
+              0.0
+            ],
+            [
+              -90.519717,
+              14.669423,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 83 · Sector C",
+        "LOTE": "83",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 83.68,
+        "perimetro_m": 45.93,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 83"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519626,
+              14.669226,
+              0.0
+            ],
+            [
+              -90.519779,
+              14.669291,
+              0.0
+            ],
+            [
+              -90.519759,
+              14.669329,
+              0.0
+            ],
+            [
+              -90.519601,
+              14.669258,
+              0.0
+            ],
+            [
+              -90.519626,
+              14.669226,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 84 · Sector C",
+        "LOTE": "84",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 90.43,
+        "perimetro_m": 47.3,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Hacia la calle",
+        "lotes_cont": "Lote 84"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519601,
+              14.669258,
+              0.0
+            ],
+            [
+              -90.519759,
+              14.669329,
+              0.0
+            ],
+            [
+              -90.519755,
+              14.669336,
+              0.0
+            ],
+            [
+              -90.519736,
+              14.669371,
+              0.0
+            ],
+            [
+              -90.519579,
+              14.669291,
+              0.0
+            ],
+            [
+              -90.519596,
+              14.669265,
+              0.0
+            ],
+            [
+              -90.519601,
+              14.669258,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 87 · Sector A",
+        "LOTE": "87",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 53.56,
+        "perimetro_m": 29.56,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 87"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.521223,
+              14.667283,
+              0.0
+            ],
+            [
+              -90.521178,
+              14.667279,
+              0.0
+            ],
+            [
+              -90.521176,
+              14.667207,
+              0.0
+            ],
+            [
+              -90.521251,
+              14.667226,
+              0.0
+            ],
+            [
+              -90.521239,
+              14.667286,
+              0.0
+            ],
+            [
+              -90.521223,
+              14.667283,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 87B · Sector A",
+        "LOTE": "87B",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 84.83,
+        "perimetro_m": 37.21,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 87B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.521182,
+              14.667078,
+              0.0
+            ],
+            [
+              -90.521211,
+              14.667091,
+              0.0
+            ],
+            [
+              -90.521278,
+              14.667113,
+              0.0
+            ],
+            [
+              -90.521262,
+              14.667179,
+              0.0
+            ],
+            [
+              -90.521174,
+              14.667154,
+              0.0
+            ],
+            [
+              -90.521171,
+              14.6671,
+              0.0
+            ],
+            [
+              -90.521182,
+              14.667078,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 87A · Sector A",
+        "LOTE": "87A",
+        "SECTOR": "A",
+        "OCUPADO": "Sí",
+        "area_m2": 49.82,
+        "perimetro_m": 29.45,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Alcantarillado público",
+        "aguas_gris": "Alcantarillado público",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 87A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.521251,
+              14.667226,
+              0.0
+            ],
+            [
+              -90.521176,
+              14.667207,
+              0.0
+            ],
+            [
+              -90.521174,
+              14.667154,
+              0.0
+            ],
+            [
+              -90.521262,
+              14.667179,
+              0.0
+            ],
+            [
+              -90.521251,
+              14.667226,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 75 · Sector C",
+        "LOTE": "75",
+        "SECTOR": "C",
+        "OCUPADO": "Sí",
+        "area_m2": 46.3,
+        "perimetro_m": 27.92,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Terreno",
+        "aguas_gris": "Terreno",
+        "aguas_pluv": "Terreno",
+        "lotes_cont": "Lote 75"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519785,
+              14.669446,
+              0.0
+            ],
+            [
+              -90.519843,
+              14.669492,
+              0.0
+            ],
+            [
+              -90.519807,
+              14.669531,
+              0.0
+            ],
+            [
+              -90.519748,
+              14.669476,
+              0.0
+            ],
+            [
+              -90.519785,
+              14.669446,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 2 · Sector A",
+        "LOTE": "2",
+        "SECTOR": "A",
+        "OCUPADO": "No",
+        "area_m2": 165.82,
+        "perimetro_m": 52.77,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.520625,
+              14.668306,
+              0.0
+            ],
+            [
+              -90.520556,
+              14.668256,
+              0.0
+            ],
+            [
+              -90.52051,
+              14.668222,
+              0.0
+            ],
+            [
+              -90.520564,
+              14.668148,
+              0.0
+            ],
+            [
+              -90.520689,
+              14.668232,
+              0.0
+            ],
+            [
+              -90.520625,
+              14.668306,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 39 · Sector A",
+        "LOTE": "39",
+        "SECTOR": "A",
+        "OCUPADO": "Por verificar",
+        "area_m2": 96.76,
+        "perimetro_m": 39.61,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 39"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519898,
+              14.668597,
+              0.0
+            ],
+            [
+              -90.519877,
+              14.668651,
+              0.0
+            ],
+            [
+              -90.519869,
+              14.668671,
+              0.0
+            ],
+            [
+              -90.519777,
+              14.668648,
+              0.0
+            ],
+            [
+              -90.519785,
+              14.66861,
+              0.0
+            ],
+            [
+              -90.519795,
+              14.668569,
+              0.0
+            ],
+            [
+              -90.519898,
+              14.668597,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 67 · Sector B",
+        "LOTE": "67",
+        "SECTOR": "B",
+        "OCUPADO": "Por verificar",
+        "area_m2": 118.81,
+        "perimetro_m": 47.1,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 67"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519795,
+              14.66922,
+              0.0
+            ],
+            [
+              -90.519773,
+              14.66928,
+              0.0
+            ],
+            [
+              -90.519725,
+              14.669259,
+              0.0
+            ],
+            [
+              -90.51963,
+              14.669222,
+              0.0
+            ],
+            [
+              -90.519668,
+              14.669159,
+              0.0
+            ],
+            [
+              -90.519755,
+              14.669202,
+              0.0
+            ],
+            [
+              -90.519775,
+              14.669211,
+              0.0
+            ],
+            [
+              -90.519787,
+              14.669216,
+              0.0
+            ],
+            [
+              -90.519795,
+              14.66922,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 78 · Sector C",
+        "LOTE": "78",
+        "SECTOR": "C",
+        "OCUPADO": "Por verificar",
+        "area_m2": 78.03,
+        "perimetro_m": 43.18,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 78"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519686,
+              14.669502,
+              0.0
+            ],
+            [
+              -90.51965,
+              14.669538,
+              0.0
+            ],
+            [
+              -90.519623,
+              14.669518,
+              0.0
+            ],
+            [
+              -90.519601,
+              14.669502,
+              0.0
+            ],
+            [
+              -90.519574,
+              14.669482,
+              0.0
+            ],
+            [
+              -90.519546,
+              14.66946,
+              0.0
+            ],
+            [
+              -90.519532,
+              14.66945,
+              0.0
+            ],
+            [
+              -90.51954,
+              14.66942,
+              0.0
+            ],
+            [
+              -90.519561,
+              14.66943,
+              0.0
+            ],
+            [
+              -90.519593,
+              14.669445,
+              0.0
+            ],
+            [
+              -90.519646,
+              14.669478,
+              0.0
+            ],
+            [
+              -90.519686,
+              14.669502,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 81A · Sector C",
+        "LOTE": "81A",
+        "SECTOR": "C",
+        "OCUPADO": "Por verificar",
+        "area_m2": 191.28,
+        "perimetro_m": 58.2,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "Hacia cuerpo de agua",
+        "aguas_gris": "Hacia cuerpo de agua",
+        "aguas_pluv": "Hacia cuerpo de agua",
+        "lotes_cont": "Lote 81A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519643,
+              14.669581,
+              0.0
+            ],
+            [
+              -90.519665,
+              14.6696,
+              0.0
+            ],
+            [
+              -90.519692,
+              14.669623,
+              0.0
+            ],
+            [
+              -90.519705,
+              14.669634,
+              0.0
+            ],
+            [
+              -90.519725,
+              14.669652,
+              0.0
+            ],
+            [
+              -90.519741,
+              14.669665,
+              0.0
+            ],
+            [
+              -90.519666,
+              14.669714,
+              0.0
+            ],
+            [
+              -90.519619,
+              14.669747,
+              0.0
+            ],
+            [
+              -90.519567,
+              14.669739,
+              0.0
+            ],
+            [
+              -90.519541,
+              14.669725,
+              0.0
+            ],
+            [
+              -90.519643,
+              14.669581,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Lote 76 · Sector Sin asignar",
+        "LOTE": "76",
+        "SECTOR": "Sin asignar",
+        "OCUPADO": "Por verificar",
+        "area_m2": 83.91,
+        "perimetro_m": 47.53,
+        "ALTA_TENSI": "No",
+        "en_alta_tension": "NO",
+        "desfogue_a": "No registrado",
+        "aguas_gris": "No registrado",
+        "aguas_pluv": "No registrado",
+        "lotes_cont": "Lote 76"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.519718,
+              14.669475,
+              0.0
+            ],
+            [
+              -90.519686,
+              14.669502,
+              0.0
+            ],
+            [
+              -90.519602,
+              14.66945,
+              0.0
+            ],
+            [
+              -90.519595,
+              14.669446,
+              0.0
+            ],
+            [
+              -90.519573,
+              14.669436,
+              0.0
+            ],
+            [
+              -90.51954,
+              14.66942,
+              0.0
+            ],
+            [
+              -90.519548,
+              14.669386,
+              0.0
+            ],
+            [
+              -90.519587,
+              14.6694,
+              0.0
+            ],
+            [
+              -90.519615,
+              14.669411,
+              0.0
+            ],
+            [
+              -90.519718,
+              14.669475,
+              0.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

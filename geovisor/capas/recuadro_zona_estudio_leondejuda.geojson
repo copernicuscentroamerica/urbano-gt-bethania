@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Recuadro de Zona de Estudio: Nueva León de Judá",
+        "project_id": "gt-bethania",
+        "title": "Nueva León de Judá (Zona 7, Colonia Bethania)",
+        "role": "perimetro_mascara_zona_estudio",
+        "criterio_delimitacion": "Recuadro envolvente (bounding box) generado a partir de la capa de predios (lotes_leondejuda)",
+        "predios_contenidos": 105,
+        "sectores": "A, B y C",
+        "superficie_recuadro_ha": 7.15,
+        "superficie_recuadro_m2": 71456.3,
+        "superficie_neta_predios_ha": 0.81,
+        "superficie_neta_predios_m2": 8089.3,
+        "dimensiones_m": "220.3 m (E-O) × 324.3 m (N-S)",
+        "bbox_wgs84": "[-90.521391, 14.66695, -90.519314, 14.669902]"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.521391,
+              14.66695
+            ],
+            [
+              -90.519314,
+              14.66695
+            ],
+            [
+              -90.519314,
+              14.669902
+            ],
+            [
+              -90.521391,
+              14.669902
+            ],
+            [
+              -90.521391,
+              14.66695
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
