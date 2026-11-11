@@ -1,58 +1,131 @@
 {
   "schema_version": "1.0.0",
   "project_id": "gt-bethania",
-  "title": "Nueva León de Judá (Bethania, Zona 7): asentamientos en alto riesgo",
-  "country": {
-    "code": "GT",
-    "name": "Guatemala"
-  },
   "map_view": {
     "center": [
       -90.520353,
       14.668426
     ],
     "zoom": 17.4,
-    "initial_center": [
-      -90.520353,
-      14.668426
-    ],
-    "initial_zoom": 17.2,
     "bbox": [
       -90.521391,
       14.66695,
       -90.519314,
       14.669902
     ],
-    "declared_centroid": [
-      -90.520353,
-      14.668426
-    ],
-    "is_referential": false,
-    "reference_note": "Zona de estudio acotada en Nueva León de Judá (Colonia Bethania, Zona 7, Ciudad de Guatemala), delimitada mediante un recuadro envolvente generado a partir de la capa de predios (lotes_leondejuda: 105 lotes en Sectores A, B y C; centroide: 14.668426, -90.520353).",
-    "area_declared": "Recuadro de zona de estudio: 7,15 ha (220,3 m × 324,3 m) delimitado a partir de los 105 predios de Nueva León de Judá (0,81 ha / 8.089,3 m² de superficie neta parcelaria).",
-    "scale_label": "Microescala predial / Asentamiento Nueva León de Judá (Zona 7, Bethania)"
+    "default_basemap": "copernicus-dem-glo30",
+    "available_basemaps": [
+      "copernicus-dem-glo30",
+      "copernicus-dem-hillshade",
+      "copernicus-dem-viridis",
+      "esa-worldcover-2021",
+      "esa-worldcover-2020",
+      "s2-lulc-2023",
+      "s2-lulc-2020",
+      "s2-lulc-2017",
+      "s2-l2a-ndvi",
+      "s2-l2a-ndbi",
+      "s2-l2a-ndwi",
+      "s2-l2a-falsecolor",
+      "s2-l2a-swir",
+      "s1-rtc-falsecolor",
+      "s1-rtc-vv",
+      "jrc-gsw-occurrence",
+      "jrc-gsw-extent",
+      "sentinel2-2024",
+      "sentinel2-2022",
+      "sentinel2-2020",
+      "sentinel2-2018",
+      "carto-positron",
+      "osm-standard",
+      "carto-dark",
+      "esri-imagery"
+    ]
   },
-  "geolibre_integration": {
-    "web_app_base_url": "https://web.geolibre.app/",
-    "project_file": "geovisor/proyecto.geolibre.json",
-    "embed_layout": "maponly",
-    "supports_local_geojson_preview": true
+  "geolibre": {
+    "enabled": true,
+    "viewer_base_url": "https://web.geolibre.app/",
+    "project_file": "geovisor/proyecto.geolibre.json"
   },
-  "planned_controls": [
-    "Recuadro de zona de estudio delimitado a partir de la extensión espacial de la capa de predios (lotes_leondejuda).",
-    "Ortofoto RPAS/dron de alta resolución (~2,4 cm/px) sobre Nueva León de Judá con control de opacidad.",
-    "Consulta interactiva de los 105 predios catastrales (Sectores A, B y C: ocupación, área, desfogue sanitario/pluvial y cruce con alta tensión).",
-    "Superposición de la franja de servidumbre de líneas de alta tensión (39 lotes intersectados) y curvas de nivel acotadas (1308–1439 m s. n. m.)."
-  ],
-  "external_references": [],
   "layers": [
     {
-      "id": "gt-leondejuda-ortofoto",
-      "title": "Ortofoto RPAS / Dron de alta resolución: Nueva León de Judá",
-      "group": "1. Ortofoto y relieve base (Nueva León de Judá)",
-      "format": "cog",
+      "id": "gt-leondejuda-dem",
+      "title": "Modelo Digital de Elevación TIN 0.5 m (1,320.6 – 1,436.0 m s. n. m.)",
+      "description": "Modelo Digital de Elevación (DEM) de 0.5 m/px interpolado mediante red irregular de triángulos (TIN Delaunay baricéntrico) a partir de las curvas de nivel de 1 m, con rampa hipsométrica y sombreado analítico (hillshade).",
+      "format": "xyz_or_cog",
       "geometry_type": "raster",
+      "source_path": "geovisor/capas/modelo_elevacion_leondejuda_cog.tif",
+      "preview_image_path": "geovisor/data/modelo_elevacion_leondejuda.webp",
+      "image_coordinates": [
+        [
+          -90.521391,
+          14.669902
+        ],
+        [
+          -90.519316,
+          14.669902
+        ],
+        [
+          -90.519316,
+          14.666952
+        ],
+        [
+          -90.521391,
+          14.666952
+        ]
+      ],
       "status": "publicado",
+      "attribution": "Interpolación TIN 0.5 m desde curvas de nivel de 1 m (Nueva León de Judá)",
+      "style": {
+        "fill_color": "#4EA865",
+        "fill_opacity": 0.88,
+        "stroke_color": "#1E6B52",
+        "stroke_width": 1.0,
+        "visible_by_default": false
+      }
+    },
+    {
+      "id": "gt-leondejuda-pendientes-raster",
+      "title": "Mapa continuo de pendientes y amenaza de ladera (0.5 m · Grados)",
+      "description": "Mapa continuo de pendientes derivado del DEM de 0.5 m con sombreado de relieve: Verde (<12° Bajo), Amarillo (12°–22° Medio), Naranja (22°–32° Alto) y Rojo (>32° Muy Alto / Escarpe de barranco).",
+      "format": "xyz_or_cog",
+      "geometry_type": "raster",
+      "source_path": "geovisor/capas/mapa_pendientes_leondejuda_cog.tif",
+      "preview_image_path": "geovisor/data/mapa_pendientes_leondejuda.webp",
+      "image_coordinates": [
+        [
+          -90.521391,
+          14.669902
+        ],
+        [
+          -90.519316,
+          14.669902
+        ],
+        [
+          -90.519316,
+          14.666952
+        ],
+        [
+          -90.521391,
+          14.666952
+        ]
+      ],
+      "status": "publicado",
+      "attribution": "Análisis morfométrico sobre DEM 0.5 m (Nueva León de Judá)",
+      "style": {
+        "fill_color": "#F2781C",
+        "fill_opacity": 0.58,
+        "stroke_color": "#C92323",
+        "stroke_width": 1.0,
+        "visible_by_default": true
+      }
+    },
+    {
+      "id": "gt-leondejuda-ortofoto",
+      "title": "Ortofoto RPAS — Nueva León de Judá (Dron ~2.4 cm/px)",
+      "description": "Mosaico aerofotogramétrico de alta resolución espacial del asentamiento Nueva León de Judá (Colonia Bethania, Zona 7), reproyectado a EPSG:4326 y optimizado en Cloud-Optimized GeoTIFF + vista WebP.",
+      "format": "xyz_or_cog",
+      "geometry_type": "raster",
       "source_path": "geovisor/capas/ortofoto_leondejuda_cog.tif",
       "preview_image_path": "geovisor/data/ortofoto_leondejuda.webp",
       "image_coordinates": [
@@ -73,101 +146,126 @@
           14.668087
         ]
       ],
-      "expected_file_hint": "geovisor/capas/ortofoto_leondejuda_cog.tif",
-      "resolution": "Mosaico RPAS ~2,4 cm/px (EPSG:4326 COG + vista WebP)",
+      "status": "publicado",
+      "attribution": "UDEVIPO / Levantamiento RPAS Nueva León de Judá (leon_de_juda.tif)",
       "style": {
-        "fill_color": "#007F8B",
-        "fill_opacity": 0.95,
-        "stroke_color": "#14283F",
-        "stroke_width": 1.0
-      },
-      "caveat": "Mosaico aerofotogramétrico RPAS (leon_de_juda.tif) reproyectado de EPSG:32615 a EPSG:4326 sobre el sector norte de Nueva León de Judá."
+        "fill_color": "#16A34A",
+        "fill_opacity": 0.92,
+        "stroke_color": "#15803D",
+        "stroke_width": 1.0,
+        "visible_by_default": true
+      }
+    },
+    {
+      "id": "gt-leondejuda-zonas-pendiente",
+      "title": "Zonificación vectorial de riesgo por pendiente (<12°, 12–22°, 22–32°, >32°)",
+      "description": "Polígonos clasificados por nivel de riesgo topográfico dentro del recuadro de 7.15 ha: Bajo (<12°: 0.46 ha), Medio (12°–22°: 0.34 ha), Alto (22°–32°: 0.78 ha) y Muy Alto (>32°: 5.57 ha). Haz clic para consultar rangos y recomendaciones.",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "source_path": "geovisor/capas/zonas_riesgo_pendiente_leondejuda.geojson",
+      "status": "publicado",
+      "attribution": "Clasificación geotécnica de pendientes desde curvas de 1 m",
+      "style": {
+        "fill_color": "auto_riesgo",
+        "fill_opacity": 0.25,
+        "stroke_color": "auto_riesgo",
+        "stroke_width": 1.2,
+        "visible_by_default": false
+      }
     },
     {
       "id": "gt-leondejuda-curvas-nivel",
-      "title": "Curvas de nivel acotadas a la zona de estudio (1308–1439 m s. n. m.)",
-      "group": "1. Ortofoto y relieve base (Nueva León de Judá)",
+      "title": "Curvas de nivel cada 1 m (1,308 – 1,439 m s. n. m.)",
+      "description": "536 curvas de nivel recortadas al recuadro de la zona de estudio de Nueva León de Judá (curvas normales cada 1 m y curvas directoras cada 5 m) para lectura de relieve y pendientes hacia el barranco.",
       "format": "geojson",
       "geometry_type": "line",
-      "status": "publicado",
       "source_path": "geovisor/capas/curvas_nivel_leondejuda.geojson",
-      "expected_file_hint": "geovisor/capas/curvas_nivel_leondejuda.geojson",
-      "resolution": "Equidistancia 1 m (Normal) y 5 m (Directora) · 536 curvas",
+      "status": "publicado",
+      "attribution": "Levantamiento topográfico / fotogramétrico Nueva León de Judá (leóndejuda_curvas_clip.shp)",
       "style": {
         "fill_color": "#D97706",
         "fill_opacity": 0.0,
-        "stroke_color": "#D97706",
-        "stroke_width": 1.35,
+        "stroke_color": "#B45309",
+        "stroke_width": 1.3,
         "label_field": "ELEVACION",
-        "label_min_zoom": 17.6,
-        "interactive_fill": false
-      },
-      "caveat": "Recorte espacial (clip) de leóndejuda_curvas_clip.shp ajustado al recuadro de la zona de estudio definida por los predios."
+        "label_min_zoom": 17.5
+      }
     },
     {
       "id": "gt-leondejuda-predios",
-      "title": "Capa de predios / lotes catastrales de Nueva León de Judá (105 lotes)",
-      "group": "2. Catastro predial y exposición (Nueva León de Judá)",
+      "title": "Catastro de predios y lotes — Nueva León de Judá (105 lotes)",
+      "description": "105 predios levantados en los Sectores A (50), B (32) y C (22) con atributos de ocupación, niveles, drenajes, elevación media, pendiente máxima y nivel de riesgo predial.",
       "format": "geojson",
       "geometry_type": "polygon",
-      "status": "publicado",
       "source_path": "geovisor/capas/lotes_leondejuda.geojson",
-      "expected_file_hint": "geovisor/capas/lotes_leondejuda.geojson",
-      "resolution": "Catastro predial 1:500 (Sectores A, B y C · 8.089,3 m²)",
+      "status": "publicado",
+      "attribution": "UDEVIPO — Unidad de Catastro (lotes_leondejuda.shp)",
       "style": {
-        "fill_color": "#00A8B5",
-        "fill_opacity": 0.36,
-        "stroke_color": "#0B2545",
-        "stroke_width": 1.6,
+        "fill_color": "auto_riesgo",
+        "fill_opacity": 0.22,
+        "stroke_color": "#0F172A",
+        "stroke_width": 1.4,
         "label_field": "LOTE",
-        "label_min_zoom": 17.1
-      },
-      "caveat": "105 predios (lotes_leondejuda.shp) con atributos de lote, sector (A=50, B=32, C=22), ocupación (92 ocupados), drenaje sanitario/pluvial y cruce con servidumbre de alta tensión."
+        "label_min_zoom": 17.3
+      }
+    },
+    {
+      "id": "gt-leondejuda-techos-riesgo",
+      "title": "Techos de vivienda clasificados por nivel de riesgo (Open Buildings + RPAS · 124 techos)",
+      "description": "124 huellas de techos de vivienda (113 de Google-Microsoft Open Buildings y 11 restituidas sobre ortofoto RPAS) clasificadas por nivel de riesgo multicriterio: Muy Alto (24, rojo), Alto (70, naranja), Medio (19, amarillo) y Bajo (11, verde).",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "source_path": "geovisor/capas/techos_vivienda_riesgo_leondejuda.geojson",
+      "status": "publicado",
+      "attribution": "Google-Microsoft Open Buildings (VIDA) + Fotogrametría RPAS y Catastro UDEVIPO",
+      "style": {
+        "fill_color": "auto_riesgo",
+        "fill_opacity": 0.78,
+        "stroke_color": "auto_riesgo",
+        "stroke_width": 1.8,
+        "visible_by_default": true
+      }
     },
     {
       "id": "gt-leondejuda-alta-tension",
-      "title": "Franja de servidumbre de líneas de alta tensión (39 predios intersectados)",
-      "group": "2. Catastro predial y exposición (Nueva León de Judá)",
+      "title": "Franja de servidumbre — Líneas de alta tensión (3 polígonos)",
+      "description": "Corredor de restricción y riesgo eléctrico por líneas de alta tensión (4,303.5 m²) que atraviesa el asentamiento Nueva León de Judá e intersecta 39 lotes.",
       "format": "geojson",
       "geometry_type": "polygon",
-      "status": "publicado",
       "source_path": "geovisor/capas/lineas_alta_tension_leondejuda.geojson",
-      "expected_file_hint": "geovisor/capas/lineas_alta_tension_leondejuda.geojson",
-      "resolution": "Polígonos de servidumbre eléctrica (3 corredores · 4.303,5 m²)",
+      "status": "publicado",
+      "attribution": "Levantamiento técnico Nueva León de Judá (lineasdealtatension_leondejuda.shp)",
       "style": {
         "fill_color": "#E11D48",
-        "fill_opacity": 0.38,
-        "stroke_color": "#881337",
-        "stroke_width": 2.2,
+        "fill_opacity": 0.22,
+        "stroke_color": "#BE123C",
+        "stroke_width": 2.4,
         "line_dasharray": [
-          4,
+          3,
           2
         ]
-      },
-      "caveat": "Corredores de líneas de alta tensión (lineasdealtatension_leondejuda.shp) que atraviesan 39 de los 105 lotes del asentamiento."
+      }
     },
     {
       "id": "gt-leondejuda-recuadro-estudio",
-      "title": "Recuadro delimitador de la zona de estudio (a partir de capa de predios)",
-      "group": "3. Delimitación del área de estudio",
+      "title": "Recuadro delimitador de la zona de estudio (derivado de predios · 7.15 ha)",
+      "description": "Polígono rectangular de estudio (220.3 m × 324.3 m, 7.15 ha) generado automáticamente a partir de la envolvente (bounding box) de la capa de predios lotes_leondejuda con un margen técnico de 12 m.",
       "format": "geojson",
       "geometry_type": "polygon",
-      "status": "publicado",
       "source_path": "geovisor/capas/recuadro_zona_estudio_leondejuda.geojson",
-      "expected_file_hint": "geovisor/capas/recuadro_zona_estudio_leondejuda.geojson",
-      "resolution": "Polígono envolvente rectangular (220,3 m × 324,3 m · 7,15 ha)",
+      "status": "publicado",
+      "attribution": "Delimitación técnica sobre capa predial de Nueva León de Judá",
       "style": {
-        "fill_color": "#FFCC00",
-        "fill_opacity": 0.0,
-        "stroke_color": "#FFCC00",
+        "fill_color": "#00E5FF",
+        "fill_opacity": 0.03,
+        "stroke_color": "#00E5FF",
         "stroke_width": 3.0,
         "line_dasharray": [
-          5,
-          3
+          4,
+          2
         ],
         "interactive_fill": false
-      },
-      "caveat": "Recuadro envolvente (bounding box) generado a partir de la capa de predios lotes_leondejuda.shp (+12 m de margen de encuadre) para acotar la zona de estudio."
+      }
     }
   ]
 }

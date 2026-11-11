@@ -1,21 +1,24 @@
-## Alcance actual, limitaciones y próximos pasos para continuidad
+## Alcance actual, hallazgos del modelo de riesgo y próximos pasos
 
-### Avances consolidados en esta versión
+### Hallazgos principales del análisis de elevación, pendientes y techos de vivienda
 
-- **Zona de estudio acotada y georreferenciada:** Se sustituyó la referencia genérica de Colonia Bethania por la delimitación exacta del asentamiento **Nueva León de Judá** mediante un recuadro de estudio de **7.15 ha** generado a partir de la capa de predios (`lotes_leondejuda.shp`).
-- **Integración de levantamiento de dron y catastro:** El geovisor incorpora la ortofoto RPAS (`leon_de_juda.tif`), los **105 lotes** de los Sectores A, B y C, los **3 polígonos** de líneas de alta tensión y las **536 curvas de nivel** a cada 1 metro.
-- **Identificación preliminar de exposición física:**
-  - **39 lotes** presentan intersección geométrica con la franja de servidumbre de líneas de alta tensión.
-  - **40 lotes** descargan aguas grises y **17 lotes** descargan aguas negras directamente hacia las laderas del barranco, lo que constituye un factor relevante de saturación de taludes en pendientes que superan los 130 m de desnivel local (`1,308–1,439 m s. n. m.`).
+1. **Predominio de pendientes fuertes y escarpes de barranco:**
+   - El Modelo Digital de Elevación (DEM de 0.5 m) revela un desnivel de **115.45 metros** dentro del recuadro de estudio (`1,320.55 m` a `1,436.00 m s. n. m.`).
+   - El **77.9% del recuadro de estudio (`5.57 ha`)** presenta pendientes **Muy Altas (`> 32°`)** correspondientes a los flancos del barranco que rodean el asentamiento por el norte, oeste y sur, mientras que solo el **11.1% (`0.80 ha`)** tiene pendientes bajas a moderadas (`< 22°`).
+2. **Clasificación de los 124 techos de vivienda (Open Buildings + RPAS):**
+   - 🟥 **24 techos en Riesgo Muy Alto:** Corresponden principalmente a viviendas donde convergen dos o tres factores críticos: emplazamiento en borde de talud con pendiente máxima `>= 32°`, intersección con la franja de servidumbre de **líneas de alta tensión** y descarga directa de aguas negras/grises al barranco.
+   - 🟧 **70 techos en Riesgo Alto:** Viviendas ubicadas sobre laderas fuertes (`22° – 32°`) o dentro de la franja de restricción eléctrica (39 predios intersectados en los Sectores A, B y C).
+   - 🟨 **19 techos en Riesgo Medio:** Viviendas en pendiente moderada (`12° – 22°`) fuera del corredor de alta tensión.
+   - 🟩 **11 techos en Riesgo Bajo:** Viviendas situadas en la plataforma de menor pendiente (`< 12°`), fuera de la servidumbre eléctrica y conectadas a red de drenaje.
 
 ### Limitaciones técnicas a considerar
 
-- **Cobertura espacial:** Las capas de detalle cubren específicamente el polígono del asentamiento **Nueva León de Judá**; para extender el análisis a otros sectores de la Colonia Bethania (Zona 7) se requiere incorporar los levantamientos prediales y vuelos de dron correspondientes.
-- **Carácter orientativo del cruce de gabinete:** La superposición con la franja de alta tensión y la lectura de pendientes a partir de curvas de 1 m constituyen insumos técnicos de priorización en gabinete. No reemplazan el dictamen jurídico de servidumbre eléctrica ni los estudios geotécnicos de estabilidad de taludes en sitio.
-- **Protección de datos:** En cumplimiento de las reglas de publicación abierta, las capas publicadas contienen únicamente identificadores de lote (`LOTE`), sector y características físicas/sanitarias de la vivienda, sin incluir nombres ni documentos de identidad de residentes.
+- **Resolución del DEM interpolado:** El DEM de 0.5 m reproduce con fidelidad la topografía capturada por las curvas de nivel de 1 m (`leóndejuda_curvas_clip.shp`), pero no sustituye un levantamiento LiDAR debajo de vegetación densa ni estudios de mecánica de suelos para el diseño estructural de obras de contención.
+- **Subdivisión de huellas Open Buildings:** En sectores con techos de lámina contiguos, las huellas satelitales de *Google-Microsoft Open Buildings* se individualizaron mediante corte con la cartografía catastral de UDEVIPO y verificación sobre la ortofoto RPAS (`2.4 cm/px`).
+- **Protección de datos:** Todas las capas publicadas utilizan exclusivamente códigos técnicos (`TECHO-001` a `TECHO-124` y número de `LOTE`), sin exponer datos personales de las familias residentes.
 
-### Próximos pasos recomendados para UDEVIPO
+### Próximos pasos recomendados para la Unidad de Catastro (UDEVIPO)
 
-1. **Verificación en campo de los 39 lotes bajo la franja de alta tensión:** Contrastar en terreno los límites del derecho de vía eléctrico en los Sectores A (19 lotes), B (16 lotes) y C (4 lotes).
-2. **Evaluación geotécnica de borde de barranco e infraestructura de drenaje:** Priorizar la inspección ingenieril en los sectores donde coinciden altas pendientes (curvas de nivel estrechas entre 1,350 y 1,420 m s. n. m.) y descargas directas de aguas grises/negras o pluviales al barranco.
-3. **Definición de matriz ponderada de riesgo por lote:** Acordar institucionalmente en UDEVIPO los pesos y umbrales técnicos (pendiente, distancia a corona de talud, servidumbre eléctrica, materiales constructivos y drenaje) para clasificar formalmente cada lote con miras a obras de mitigación o escrituración.
+1. **Atención prioritaria a los 24 techos / 18 lotes clasificados en Riesgo Muy Alto:** Realizar inspección técnica en sitio en los lotes que combinan pendiente crítica de borde de barranco (`> 32°`) e intersección con el corredor de alta tensión.
+2. **Obras de conducción de aguas grises y pluviales:** Intervenir prioritariamente los **40 lotes** que descargan aguas grises y **17 lotes** que descargan aguas negras hacia el barranco, dado que la infiltración continua sobre taludes de `> 25°` acelera procesos de erosión regresiva y deslizamiento.
+3. **Dictamen de servidumbre eléctrica:** Coordinar con la entidad transmisora/distribuidora de energía la demarcación física en campo de los **39 predios** que intersectan los 3 polígonos de líneas de alta tensión antes de emitir resoluciones de escrituración.
