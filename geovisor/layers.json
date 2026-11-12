@@ -170,7 +170,29 @@
         "fill_opacity": 0.25,
         "stroke_color": "auto_riesgo",
         "stroke_width": 1.2,
-        "visible_by_default": false
+        "visible_by_default": false,
+        "fill_color_categories": [
+          {
+            "value": "Muy Alto",
+            "label": "Riesgo Muy Alto (>32° / servidumbre crítica)",
+            "color": "#DC2626"
+          },
+          {
+            "value": "Alto",
+            "label": "Riesgo Alto (22°–32°)",
+            "color": "#F97316"
+          },
+          {
+            "value": "Medio",
+            "label": "Riesgo Medio (12°–22°)",
+            "color": "#FACC15"
+          },
+          {
+            "value": "Bajo",
+            "label": "Riesgo Bajo (<12°)",
+            "color": "#16A34A"
+          }
+        ]
       }
     },
     {
@@ -206,7 +228,29 @@
         "stroke_color": "#0F172A",
         "stroke_width": 1.4,
         "label_field": "LOTE",
-        "label_min_zoom": 17.3
+        "label_min_zoom": 17.3,
+        "fill_color_categories": [
+          {
+            "value": "Muy Alto",
+            "label": "Riesgo Muy Alto (>32° / servidumbre crítica)",
+            "color": "#DC2626"
+          },
+          {
+            "value": "Alto",
+            "label": "Riesgo Alto (22°–32°)",
+            "color": "#F97316"
+          },
+          {
+            "value": "Medio",
+            "label": "Riesgo Medio (12°–22°)",
+            "color": "#FACC15"
+          },
+          {
+            "value": "Bajo",
+            "label": "Riesgo Bajo (<12°)",
+            "color": "#16A34A"
+          }
+        ]
       }
     },
     {
@@ -223,7 +267,29 @@
         "fill_opacity": 0.78,
         "stroke_color": "auto_riesgo",
         "stroke_width": 1.8,
-        "visible_by_default": true
+        "visible_by_default": true,
+        "fill_color_categories": [
+          {
+            "value": "Muy Alto",
+            "label": "Riesgo Muy Alto (>32° / servidumbre crítica)",
+            "color": "#DC2626"
+          },
+          {
+            "value": "Alto",
+            "label": "Riesgo Alto (22°–32°)",
+            "color": "#F97316"
+          },
+          {
+            "value": "Medio",
+            "label": "Riesgo Medio (12°–22°)",
+            "color": "#FACC15"
+          },
+          {
+            "value": "Bajo",
+            "label": "Riesgo Bajo (<12°)",
+            "color": "#16A34A"
+          }
+        ]
       }
     },
     {

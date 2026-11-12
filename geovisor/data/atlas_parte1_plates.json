@@ -1,0 +1,202 @@
+[
+  {
+    "key": "proj-p1",
+    "number": "LÁMINA P1",
+    "shortTitle": "P1 · Relieve y Curvas 1 m",
+    "title": "Modelo Altimétrico Detallado (536 Curvas cada 1 m) y Zonificación de Pendientes",
+    "sensor": "Restitución altimétrica local cada 1 m + DEM TIN 0.5 m + Contexto Copernicus GLO-30",
+    "formula": "Pendiente_deg = arctan( |grad(DEM_TIN_0.5m)| ) · Clasificacion: <12°, 12–22°, 22–32°, >32°",
+    "reading": "El 77.9% del polígono operativo (5.57 ha) corresponde a taludes escarpados mayores a 32° hacia el fondo del barranco, restringiendo el suelo apto a la plataforma superior.",
+    "imageRel": "assets/img/atlas_proyecto/lamina_p1.png",
+    "coords": [
+      [
+        -90.521453,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.666861
+      ],
+      [
+        -90.521453,
+        14.666861
+      ]
+    ],
+    "swatches": [
+      {
+        "color": "#DC2626",
+        "label": "Pendiente Muy Alta (> 32°)",
+        "desc": "5.57 ha · Escarpe activo de barranco"
+      },
+      {
+        "color": "#F97316",
+        "label": "Pendiente Alta (22° – 32°)",
+        "desc": "0.78 ha · Ladera fuerte condicionada"
+      },
+      {
+        "color": "#FACC15",
+        "label": "Pendiente Media (12° – 22°)",
+        "desc": "0.34 ha · Transición moderada"
+      },
+      {
+        "color": "#16A34A",
+        "label": "Pendiente Baja (< 12°)",
+        "desc": "0.46 ha · Plataforma superior estable"
+      }
+    ]
+  },
+  {
+    "key": "proj-p2",
+    "number": "LÁMINA P2",
+    "shortTitle": "P2 · Riesgo en 124 Techos",
+    "title": "Clasificación Multicriterio de Riesgo en los 124 Techos de Vivienda",
+    "sensor": "Google-Microsoft Open Buildings + Ortofoto RPAS (2.4 cm/px) + DEM TIN 0.5 m",
+    "formula": "Riesgo_Techo = max( Amenaza_Pendiente_P75, Interseccion_Alta_Tension )",
+    "reading": "Identifica 24 viviendas en nivel Muy Alto (19.4%) sobre bordes de talud >32° o servidumbre crítica y 70 en nivel Alto (56.5%), orientando visitas técnicas prioritarias de UDEVIPO y CONRED.",
+    "imageRel": "assets/img/atlas_proyecto/lamina_p2.png",
+    "coords": [
+      [
+        -90.521453,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.666861
+      ],
+      [
+        -90.521453,
+        14.666861
+      ]
+    ],
+    "swatches": [
+      {
+        "color": "#DC2626",
+        "label": "Techos Riesgo Muy Alto",
+        "desc": "24 viviendas (19.4%) · Atención inmediata"
+      },
+      {
+        "color": "#F97316",
+        "label": "Techos Riesgo Alto",
+        "desc": "70 viviendas (56.5%) · Mitigación requerida"
+      },
+      {
+        "color": "#FACC15",
+        "label": "Techos Riesgo Medio",
+        "desc": "19 viviendas (15.3%) · Mejora de drenajes"
+      },
+      {
+        "color": "#16A34A",
+        "label": "Techos Riesgo Bajo",
+        "desc": "11 viviendas (8.9%) · Plataforma superior"
+      },
+      {
+        "color": "#7C3AED",
+        "label": "Servidumbre Alta Tensión",
+        "desc": "4,303.5 m² de franja eléctrica"
+      }
+    ]
+  },
+  {
+    "key": "proj-p3",
+    "number": "LÁMINA P3",
+    "shortTitle": "P3 · Riesgo en 105 Lotes",
+    "title": "Evaluación Predial sobre los 105 Lotes Catastrales (Sectores A, B y C)",
+    "sensor": "Levantamiento predial Unidad de Catastro UDEVIPO + Modelo multicriterio",
+    "formula": "Nivel_Riesgo_Lote = Sintesis_Dominante( Pendiente_Lote, Techos_Contenidos, Servidumbre_AT )",
+    "reading": "De los 105 lotes evaluados, 18 califican en riesgo Muy Alto y 61 en riesgo Alto, mientras que 26 lotes (8 Bajo + 18 Medio) presentan mejores condiciones físicas iniciales para procesos de regularización.",
+    "imageRel": "assets/img/atlas_proyecto/lamina_p3.png",
+    "coords": [
+      [
+        -90.521453,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.666861
+      ],
+      [
+        -90.521453,
+        14.666861
+      ]
+    ],
+    "swatches": [
+      {
+        "color": "#DC2626",
+        "label": "Lotes Riesgo Muy Alto (18)",
+        "desc": "17.1% del parcelario · Restricción crítica"
+      },
+      {
+        "color": "#F97316",
+        "label": "Lotes Riesgo Alto (61)",
+        "desc": "58.1% · Sujeto a dictamen geotécnico"
+      },
+      {
+        "color": "#FACC15",
+        "label": "Lotes Riesgo Medio (18)",
+        "desc": "17.1% · Condicionado a obras menores"
+      },
+      {
+        "color": "#16A34A",
+        "label": "Lotes Riesgo Bajo (8)",
+        "desc": "7.6% · Aptitud favorable en corona"
+      }
+    ]
+  },
+  {
+    "key": "proj-p4",
+    "number": "LÁMINA P4",
+    "shortTitle": "P4 · Servidumbre Eléctrica",
+    "title": "Exposición Específica al Corredor de Líneas de Alta Tensión y Bordes de Barranco",
+    "sensor": "Restitución de corredor eléctrico sobre ortofoto RPAS + Catastro UDEVIPO",
+    "formula": "Exposicion_Electrica = Interseccion_Metrica( Lotes_105, Poligono_Servidumbre_AT )",
+    "reading": "El corredor de alta tensión atraviesa diagonalmente el asentamiento e intersecta 39 lotes catastrales, exigiendo coordinación interinstitucional para delimitar retiros normativos no edificables.",
+    "imageRel": "assets/img/atlas_proyecto/lamina_p4.png",
+    "coords": [
+      [
+        -90.521453,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.669991
+      ],
+      [
+        -90.519252,
+        14.666861
+      ],
+      [
+        -90.521453,
+        14.666861
+      ]
+    ],
+    "swatches": [
+      {
+        "color": "#7C3AED",
+        "label": "Franja de Alta Tensión",
+        "desc": "4,303.5 m² · 39 lotes intersectados"
+      },
+      {
+        "color": "#DC2626",
+        "label": "Techos Críticos Colindantes",
+        "desc": "Estructuras bajo o junto a servidumbre/talud"
+      },
+      {
+        "color": "#64748B",
+        "label": "Trama Predial (105 lotes)",
+        "desc": "Sectores A, B y C de Nueva León de Judá"
+      }
+    ]
+  }
+]
